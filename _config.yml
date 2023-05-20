@@ -10,16 +10,18 @@ remote_theme: "pages-themes/cayman"
 title: Awa Yasmine Zerbo
 description: Ingénieur en Genie Civil
 
-# Custom navigation links
-nav_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Projects
-    url: /projects
-  - title: Contact
-    url: /contact
+# Navigation links
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      navigation_enabled: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 
 # Build settings
 markdown: kramdown
