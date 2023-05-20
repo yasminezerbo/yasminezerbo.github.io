@@ -1,0 +1,25 @@
+# _config.yml
+
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: "pages-themes/cayman"
+
+title: Awa Yasmine Zerbo
+description: Ingénieur en Genie Civil
+
+# Custom navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Contact
+    url: /contact
+
+# Build settings
+markdown: kramdown
