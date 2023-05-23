@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awa Yasmine Zerbo</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <style>
+      /* Custom styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      .navbar {
+        background-color: #084c8b;
+        height: 100px;
+      }
+
+      .navbar-brand,
+      .navbar-nav .nav-link {
+        color: #fff;
+      }
+
+      .navbar-brand {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      .navbar-nav .nav-link {
+        font-size: 1.2em;
+        margin-right: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #a8c2d2;
+      }
+
+      .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+      }
+
+      .navbar-toggler:hover {
+        color: #a8c2d2;
+        border-color: #a8c2d2;
+      }
+
+      .footer {
+        background-color: #084c8b;
+        color: #fff;
+        padding: 40px 0;
+        width: 100vw;
+        bottom: 0;
+        position: absolute;
+      }
+
+      .footer p {
+        margin-bottom: 0;
+      }
+      .container-x {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+      }
+       .image-section{
+        left: 15% !important;
+       }
+       .text-section{
+        right: 15% !important;
+       }
+      .image-section,
+      .text-section {
+        flex: 2;
+        padding: 20px;
+      }
+
+      .image-section img {
+        max-width: 100%;
+        height: 80%;
+      }
+
+      .text-section h1 {
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+        color: #084c8b;
+      }
+
+      .text-section p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .container-x {
+          flex-direction: column;
+        }
+
+        .image-section,
+        .text-section {
+          flex: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Awa Yasmine Zerbo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">Qui Je Suis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mon CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-x">
+      <div class="image-section">
+        <img src="assets/images/Awa-yasmine.png" alt="Yasmine Zerbo-Civil Engineer Image" />
+      </div>
+      <div class="text-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hi, I'm [Your Name], a passionate civil engineer with [X] years of
+          experience. I specialize in [area of expertise], and I'm dedicated to
+          delivering high-quality projects that meet client requirements and
+          adhere to industry standards.
+        </p>
+        <p>
+          Throughout my career, I have successfully completed numerous projects,
+          ranging from [describe project type] to [describe project type]. I am
+          proficient in various tools and software, including [list relevant
+          software].
+        </p>
+        <p>
+          Please explore my portfolio to see examples of my work. If you have
+          any questions or would like to discuss a potential project, feel free
+          to contact me. I look forward to collaborating with you on your next
+          civil engineering endeavor.
+        </p>
+      </div>
+    </div>
+    <!-- Your page content goes here -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p>&copy; 2023 A.Y.Z All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+  </body>
+</html>
